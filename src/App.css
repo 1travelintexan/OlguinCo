@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  /** background image */
+  background-image: url("./public/olguinImages/mable.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shirts {
+  margin-top: 10px;
+  width: 90%;
+  border: 2px solid rgb(2, 67, 206);
+  border-radius: 0.7rem;
+  box-shadow: 4px 4px 8px rgb(16, 2, 97);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-words {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Hanalei Fill", cursive;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px 4px rgb(2, 67, 206);
+}
+.product-words {
+  font-size: 3rem;
+  color: rgb(2, 67, 206);
+  border-radius: 1vw;
+  border: 4px solid rgb(2, 67, 206);
+  padding: 15px;
+}
+.home-image {
+  margin: 20px 5px 20px 5px;
+  padding: 1rem;
+  /** background image */
+  background-image: url("./public/olguinImages/IMG_20210811_125411.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 20px;
+  border: 4px solid rgb(255, 255, 255);
+  box-shadow: 8px 8px 12px #f5adf5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.button {
+  background-color: rgb(2, 67, 206);
+  color: aliceblue;
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.wedding-pic {
+  margin-top: 20px;
+  width: 20rem;
+  border: 4px solid wheat;
+  box-shadow: 4px 4px 8px rgb(16, 2, 97);
+}
+.wedding-pic2 {
+  margin-top: 20px;
+  height: 20rem;
+  border: 4px solid wheat;
+  box-shadow: 4px 4px 8px rgb(16, 2, 97);
+}
+.about-pics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-words {
+  font-size: 4rem;
+  text-align: center;
   color: white;
+  text-shadow: 4px 4px 4px rgb(0, 56, 176);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-para {
+  font-size: 1.6rem;
+  color: rgb(244, 72, 247);
+  text-align: center;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(190, 243, 252, 0.762);
+  border-radius: 20px;
 }
