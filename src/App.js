@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Home from "./components/Home";
 import About from "./components/About";
-import background from "./public/olguinImages/mable.jpeg";
 
 function App() {
   return (

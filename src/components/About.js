@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../App.css";
-import wedding from "../public/olguinImages/wedding.jpg";
-import happy from "../public/olguinImages/happy.jpg";
+import wedding from "../images/olguinImages/wedding.jpg";
+import happy from "../images/olguinImages/happy.jpg";
 
 function About() {
   return (
