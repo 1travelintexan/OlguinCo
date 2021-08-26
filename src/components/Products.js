@@ -1,5 +1,5 @@
 import React from "react";
-import css from "../App.css";
+import "../App.css";
 import pic1 from "../images/olguinImages/shirt1.jpeg";
 import pic2 from "../images/olguinImages/shirt2.jpeg";
 import pic3 from "../images/olguinImages/shirt3.jpeg";

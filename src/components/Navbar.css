@@ -1,8 +1,11 @@
 .logo {
-  height: 5rem;
+  height: 3rem;
   border-radius: 5vw;
   padding: 5px;
   border: 4px solid white;
+}
+.logo:hover {
+  box-shadow: 0 0 8px white;
 }
 
 .search-box {
@@ -14,7 +17,7 @@
   background-color: rgb(2, 67, 206);
   border-radius: 20px;
   box-shadow: 8px 8px 10px rgb(243, 243, 252);
-  padding: 30px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,16 +37,15 @@
   background-color: rgb(2, 67, 206);
   display: flex;
   justify-content: space-between;
-  margin: 0px;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   align-items: center;
 }
 .olguinCo {
-  margin: 0px;
-  padding: 0px;
+  margin: 5px;
+  padding: 5px;
   color: white;
   font-family: cursive;
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 4px black;
 }

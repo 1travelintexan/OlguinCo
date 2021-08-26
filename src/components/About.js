@@ -1,14 +1,12 @@
 import React from "react";
-import css from "../App.css";
+import "../App.css";
 import wedding from "../images/olguinImages/wedding.jpg";
 import happy from "../images/olguinImages/happy.jpg";
 
 function About() {
   return (
-    <div>
-      <h1 className="center about-words">
-        Met our fun, creative and crazy family
-      </h1>
+    <div className="center">
+      <h1 className=" about-words">Met our fun, creative and crazy family</h1>
       <div className="about-pics">
         <img className="wedding-pic" src={wedding} alt="wedding pic" />
         <img className="wedding-pic2" src={happy} alt="couple pic" />
