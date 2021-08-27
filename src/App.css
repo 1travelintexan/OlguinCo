@@ -7,6 +7,20 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+.home-banner {
+  color: rgb(3, 10, 189);
+  text-shadow: 5px 5px 8px rgb(8, 101, 194);
+  font-size: 7vw;
+  margin-bottom: 0;
+}
+
+.examples {
+  font-family: monospace;
+  font-size: 4vw;
+  padding: 0px 20px 0px 20px;
+  color: rgb(1, 40, 122);
+  background-color: azure;
+}
 
 .container {
   position: relative;
@@ -20,16 +34,6 @@ body {
   font-size: 6vw;
   padding: 1rem;
 }
-.home-banner {
-  color: rgb(3, 10, 189);
-  text-shadow: 5px 5px 8px rgb(8, 101, 194);
-  font-size: 4vw;
-}
-
-.container h3 {
-  color: white;
-  font-size: 3vw;
-}
 
 .center {
   display: flex;
@@ -40,7 +44,7 @@ body {
 .home-image {
   width: 80%;
   margin-top: 10px;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 .product-words {
   background-color: rgba(2, 67, 206, 0.413);
@@ -57,8 +61,8 @@ body {
   text-shadow: 3px 3px 6px black;
   width: 60%;
   text-align: center;
-  font-size: 2.4rem;
-  padding: 2vw;
+  font-size: 3rem;
+  padding: 20px;
 }
 
 .home-examples {
@@ -112,15 +116,6 @@ body {
   box-shadow: 4px 4px 8px rgb(16, 2, 97);
 }
 
-@media screen and (max-width: 980px) {
-  .about-pics {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
-}
 .about-pics {
   display: flex;
   justify-content: space-around;
@@ -194,4 +189,24 @@ body {
 a:hover {
   color: aliceblue;
   text-shadow: 4px 4px 4px white;
+}
+
+@media screen and (max-width: 980px) {
+  .about-pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .home-words {
+    background-color: rgba(2, 67, 206, 0.413);
+    border-radius: 1rem;
+    color: rgb(250, 250, 254);
+    text-shadow: 3px 3px 6px black;
+    width: 60%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+  }
 }

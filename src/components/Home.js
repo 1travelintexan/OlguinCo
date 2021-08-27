@@ -2,6 +2,7 @@ import React from "react";
 import shirts from "../images/olguinImages/manyShirts.jpg";
 import "../App.css";
 import GoogleMapReact from "google-map-react";
+import Typical from "react-typical";
 
 function Home() {
   const defaultProps = {
@@ -11,9 +12,39 @@ function Home() {
     },
     zoom: 10,
   };
+
   return (
     <div className="container center">
-      <h2 className="home-banner"> We make shirts for any type of occasion!</h2>
+      <div>
+        <h3 className="home-banner">We make shirts for ...</h3>
+        <h2 className="examples">
+          <Typical
+            loop={Infinity}
+            wrapper="b"
+            steps={[
+              "Birthdays",
+              3000,
+              "Proposals",
+              3000,
+              "Bridal Showers",
+              3000,
+              "Baby Showers",
+              3000,
+              "Gender Reveals",
+              3000,
+              "Holidays",
+              3000,
+              "Graduations",
+              3000,
+              "Vacations",
+              3000,
+              "EVERYTHING!!!",
+              10000,
+            ]}
+          />
+        </h2>
+      </div>
+
       <h3 className="home-words">
         With the Olguin Co. we will work with you to make sure your dream shirts
         are made perfectly, from the sizes to the colors.
@@ -21,10 +52,7 @@ function Home() {
       <div className=" center ">
         <img className=" center home-image" src={shirts} alt="many shirts" />
       </div>
-      <div>
-        <h1>Your next special occasion</h1>
-      </div>
-      <div className="home-examples">
+      {/* <div className="home-examples">
         <div className="white">
           <h3>Birthday's</h3>
           <h3>Proposals & Bridal Showers</h3>
@@ -35,7 +63,7 @@ function Home() {
           <h3>Family Events & Vacations</h3>
           <h3>Everyday Casual Fashion</h3>
         </div>
-      </div>
+      </div> */}
       <div className="footer">
         <div className="footer-contact">
           <h2>Contact us!</h2>
@@ -89,3 +117,5 @@ function Home() {
 
 export default Home;
 // git hub key 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
+//git remote set-url origin https://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@github.com/<git_url>
+//git remote set-url origin https://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@github.com/1travelintexan/OlguinCo.git
