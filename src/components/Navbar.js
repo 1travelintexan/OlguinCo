@@ -20,9 +20,9 @@ function Navbar() {
         <h2 className="olguinCo"> Olguin Co.</h2>
         <div className="menu-icon" onClick={handleClick}>
           {click ? (
-            <FontAwesomeIcon icon={faTimes} />
+            <FontAwesomeIcon icon={faTimes} style={{ height: 60, width: 60 }} />
           ) : (
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={faBars} style={{ height: 60, width: 60 }} />
           )}
         </div>
       </nav>
