@@ -37,8 +37,8 @@ function Home() {
       </div>
 
       <h3 className="home-words">
-        With the Olguin Co. we will work with you to make sure your dream shirts
-        are made perfectly, from the sizes to the colors.
+        We will work with you to make sure your dream shirts are made perfectly,
+        from start to finish.
       </h3>
       <div className=" center ">
         <img className=" center home-image" src={shirts} alt="many shirts" />
@@ -48,7 +48,6 @@ function Home() {
         <div className="footer-contact">
           <h2>Contact us!</h2>
           <div className="flex">
-            {" "}
             <h3>
               Instagram:
               <a

@@ -35,14 +35,14 @@ function Contact() {
             url="https://www.facebook.com/groups/166166452278121/?ref=share"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 80, width: 80 }}
+            style={{ height: 60, width: 60 }}
           />
           <SocialIcon
             className="icon"
             url="https://www.instagram.com/olguinco/"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 80, width: 80 }}
+            style={{ height: 60, width: 60 }}
           />
         </div>
 
@@ -52,7 +52,7 @@ function Contact() {
           <h5>Phone: (832) 953-6712</h5>
         </div>
 
-        <div className="form center">
+        <div className="center contact-banner">
           <h3>Feel free to send us an email</h3>
           <form className="contact-form" onSubmit={sendEmail}>
             <label>Name:</label>
