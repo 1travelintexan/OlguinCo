@@ -2,7 +2,7 @@ import React from "react";
 import shirts from "../images/olguinImages/manyShirts.jpg";
 import "../App.css";
 import Typical from "react-typical";
-
+import MyMap from "./Map";
 function Home() {
   return (
     <div className="container center">
@@ -80,9 +80,11 @@ function Home() {
           </div>
         </div>
 
-        <div className="map">
-          <h3>Serving the greater Conroe area!</h3>
-          <div></div>
+        <div>
+          <h2 className="conroe">Serving the greater Conroe area!</h2>
+          <div className="map">
+            <MyMap />
+          </div>
         </div>
       </div>
     </div>

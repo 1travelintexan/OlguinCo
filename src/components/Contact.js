@@ -38,6 +38,7 @@ function Contact() {
             style={{ height: 80, width: 80 }}
           />
           <SocialIcon
+            className="icon"
             url="https://www.instagram.com/olguinco/"
             target="_blank"
             fgColor="#fff"
@@ -46,7 +47,7 @@ function Contact() {
         </div>
 
         <div className="contact-message ">
-          <h4>Give us a call or text us a message!</h4>
+          <h4>Call or text us!</h4>
           <img className="logo-2" src={logo} alt="logo" />
           <h5>Phone: (832) 953-6712</h5>
         </div>
