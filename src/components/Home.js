@@ -91,6 +91,4 @@ function Home() {
 }
 
 export default Home;
-// sammys token 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
-//git remote set-url origin https://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@github.com/<git_url>
-//git remote set-url origin https://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@github.com/1travelintexan/OlguinCo.git
+// sammys token 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

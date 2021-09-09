@@ -3,8 +3,6 @@ import React from "react";
 import emailjs from "emailjs-com";
 import logo from "../images/olguinImages/logo.jpeg";
 
-import bootstrap from "bootstrap";
-
 function Contact() {
   function sendEmail(e) {
     e.preventDefault();
