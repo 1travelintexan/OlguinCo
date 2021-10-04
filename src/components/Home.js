@@ -3,6 +3,8 @@ import shirts from "../images/olguinImages/manyShirts.jpg";
 import "../App.css";
 import Typical from "react-typical";
 import MyMap from "./Map";
+import ImageSlider from "./ImageSlider";
+import { SliderData } from "./SliderData";
 function Home() {
   return (
     <div className="container center">
@@ -35,6 +37,7 @@ function Home() {
           />
         </h2>
       </div>
+      <ImageSlider slides={SliderData} />
 
       <h3 className="home-words">
         We will work with you to make sure your dream shirts are made perfectly,

@@ -278,6 +278,48 @@ a:hover {
   text-shadow: 4px 4px 4px white;
 }
 
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-image {
+  width: 500px;
+  border-radius: 10px;
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  font-size: 3rem;
+  color: rgba(92, 203, 255, 0.657);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  font-size: 3rem;
+  color: rgba(92, 203, 255, 0.657);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
 @media screen and (max-width: 980px) {
   .about-pics {
     display: flex;
